@@ -1,0 +1,114 @@
+body {
+	background: #f6f2eb;
+}
+
+p1 {
+    color: #dbccbe;
+    font-size: 18px;
+    font-family: georgia, serif;
+}
+
+.logo {
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	margin: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+	background: url(http://i65.tinypic.com/13zzfas.jpg) repeat top left;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: georgia, serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    transition: .5s ease;
+}
+
+.active {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.img {
+	display: flex;
+    justify-content: space-around;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+}
+
+.seenon {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: -6px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: white; 
+  width: 100%;
+  transition: 0.75s ease;
+  opacity:0;
+  color: White;
+  font-size: 24px;
+  font-family: georgia, serif;
+  padding: 40px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #b6a484;
+  text-align: center;
+  margin-top: 200px;
+
+/*.footer {
+   background-color: #b6a484;
+   width: 100%;
+   height: 200px;
+   margin-top: 30px;
+   text-align: center;
+   position: fixed;
+}*/
+
+p2 {
+	color: white;
+}
+
+

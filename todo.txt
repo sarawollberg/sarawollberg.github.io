@@ -1,0 +1,12 @@
+1198x77 nav bar
+shop
+om oss
+kontakt
+bildtext
+instagram länk celine? <a href="https://www.instagram.com/celine_ohlen/">@celine_ohlen</a>
+läka alla dokument href
+
+sticky navbar
+Scrollspy
+mailruta för shop
+instagram för kontakt
