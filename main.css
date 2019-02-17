@@ -8,12 +8,52 @@ p1 {
     font-family: georgia, serif;
 }
 
+p2 {
+    color: black;
+    font-size: 18px;
+    font-family: times new roman, serif;
+    text-align: center;
+}
+
+p3 {
+	color: #dbccbe;
+	font-size: 30px;
+    font-family: georgia, serif;
+    text-align: center;
+	
+}
+
+.rubrik {
+	position: relative;
+	left: auto;
+	display: inline;
+}
+
+p4 {
+	color: #dbccbe;
+    font-size: 40px;
+    font-family: georgia, serif;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.text {
+	padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    box-shadow: 0 0px 50px 0 rgba(0, 0, 0, 0.1), 0 0px 8px 0 rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
 .logo {
-	width: 120px;
-	height: 120px;
+	width: 135px;
+	height: 135px;
 	text-align: center;
 	margin: 10px;
 	display: block;
+	margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,6 +64,11 @@ ul {
     padding-left: 0px;
     overflow: hidden;
 	background: url(http://i65.tinypic.com/13zzfas.jpg) repeat top left;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-bottom: 40px;
+	z-index: 1;
 
 }
 
@@ -46,6 +91,12 @@ li a:hover {
     transition: .5s ease;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .active {
     background: rgba(0, 0, 0, 0.4);
 }
@@ -53,6 +104,7 @@ li a:hover {
 .img {
 	display: flex;
     justify-content: space-around;
+    padding-bottom: 45px;
 }
 
 .container {
@@ -89,26 +141,14 @@ li a:hover {
 }
 
 .footer{
-  position: absolute;
+  position: static;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: #b6a484;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 220px;
 
-/*.footer {
-   background-color: #b6a484;
-   width: 100%;
-   height: 200px;
-   margin-top: 30px;
-   text-align: center;
-   position: fixed;
-}*/
-
-p2 {
-	color: white;
-}
 
 
