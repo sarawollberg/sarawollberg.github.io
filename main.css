@@ -9,7 +9,7 @@ p1 {
 }
 
 p2 {
-    color: black;
+    color: #272727;
     font-size: 18px;
     font-family: times new roman, serif;
     text-align: center;
@@ -22,6 +22,23 @@ p3 {
     text-align: center;
 	
 }
+
+/*a:hover {
+  color: white;
+  transition: .5s ease;
+}*/
+
+div.text a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  
+}
+
+div.text a {
+  color: #000;
+}
+
 
 .rubrik {
 	position: relative;
@@ -149,6 +166,7 @@ li a:hover {
   background-color: #b6a484;
   text-align: center;
   margin-top: 220px;
+
 
 
 
