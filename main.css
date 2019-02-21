@@ -23,6 +23,13 @@ p3 {
 	
 }
 
+p5 {
+	color: #f6f2eb;
+    font-size: 18px;
+    font-family: times new roman, serif;
+    text-align: center;
+}
+
 /*a:hover {
   color: white;
   transition: .5s ease;
@@ -130,7 +137,7 @@ li a:hover {
   max-width: 440px;
 }
 
-.seenon {
+.picture {
   display: block;
   width: 100%;
   height: auto;
@@ -165,7 +172,7 @@ li a:hover {
   padding: 1rem;
   background-color: #b6a484;
   text-align: center;
-  margin-top: 220px;
+  margin-top: 100px;
 
 
 
